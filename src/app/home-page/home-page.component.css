@@ -28,6 +28,8 @@
 
 .header-para {
     letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
 }
 
 .btn-class {
@@ -66,11 +68,6 @@ mat-icon {
     background-image: url(../../assets/images/download.png);
 }
 
-.section--two {
-    height: 100%;
-    width: 100%;
-}
-
 .section--two-content {
     height: 100%;
     width: 100%;
@@ -83,8 +80,8 @@ mat-icon {
 
 .section--two-content-left {
     background-image: url(../../assets/images/office.jpg);
-    height: 75%;
     width: 55vw;
+    height: 60vh;
 }
 
 .section--two-content-left-shade {
@@ -118,9 +115,21 @@ mat-icon {
     margin: 0;
 }
 
-.section--two-right-image-h3 {
-    font-size: 1rem;
+.section--two-right-right-h3 {
+    font-size: 1.2rem;
     font-weight: 600;
     margin: 0;
     letter-spacing: 1px;
+}
+
+.section--two-content-right-element-1,
+.section--two-content-right-element {
+    height: 19vh;
+    width: 20vw;
+}
+
+@media screen and (max-width: 599px) {
+    .section--two-content-right-element-1 {
+        margin-top: 3rem;
+    }
 }
