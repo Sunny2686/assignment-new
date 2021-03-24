@@ -13,10 +13,21 @@
     top: 50%;
     padding-left: 10rem;
     transform: translate(0, -50%);
+    width: 40rem;
     -webkit-transform: translate(0, -50%);
     -moz-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     -o-transform: translate(0, -50%);
+}
+
+.header--h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+}
+
+.header-content {
+    letter-spacing: 0.1rem;
 }
 
 .btn-class {
@@ -69,30 +80,34 @@ mat-icon {
     height: 75%;
 }
 
+.section--two-left {
+    background-image: url(../../assets/images/office.jpg);
+    height: 200px;
+}
+
 .section--two-content-left-shade {
     width: 50%;
     height: 100%;
     background-color: rgb(78, 74, 74);
 }
 
-.section--two-left {
-    background-image: url(../../assets/images/office.jpg);
-    height: 200px;
-}
-
 .section--two-content-right {
     height: 75%;
 }
 
+.section--two-content-right-left {}
+
 .section--two-content-right-right {
     height: 100%;
+    margin: 2rem;
 }
 
 .section--two-center-image {
     background-image: url(../../assets/images/officeSmall.jpg);
     background-size: cover;
-    height: 11.3rem;
-    width: 10.5rem;
+    background-repeat: no-repeat;
+    height: 13rem;
+    width: 13rem;
 }
 
 h3 {
@@ -100,8 +115,15 @@ h3 {
 }
 
 .section--two-content-right-right-content {
-    height: 11.3rem;
-    width: 10.5rem;
+    height: 13rem;
+    width: 14rem;
     padding: 0;
     margin: 0;
+}
+
+.section--two-right-image-h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: 1px;
 }
