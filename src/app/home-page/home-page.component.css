@@ -88,7 +88,7 @@ mat-icon {
 .section--two-content-left-shade {
     width: 50%;
     height: 100%;
-    background-color: rgb(78, 74, 74);
+    background-color: rgba(78, 74, 74, 0.753);
 }
 
 .section--two-content-right {
