@@ -129,7 +129,20 @@ mat-icon {
 }
 
 @media screen and (max-width: 599px) {
-    .section--two-content-right-element-1 {
-        margin-top: 3rem;
+    .section--one-content-card {
+        width: 55vw;
+    }
+    .section--two-content-right-right {
+        width: 55vw;
+    }
+    .section--two-content-right-element-1,
+    .section--two-content-right-element {
+        width: 55vw;
+    }
+    .section--two-content-right-left {
+        width: 55vw;
+    }
+    .section--two-center-image {
+        width: 55vw;
     }
 }
