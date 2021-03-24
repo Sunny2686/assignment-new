@@ -1,0 +1,16 @@
+.navbar {
+    width: 100%;
+}
+
+.logo {
+    color: rgb(47, 47, 128);
+}
+
+mat-sidenav-container {
+    height: 100%;
+}
+
+mat-sidenav {
+    width: 200px;
+    height: 100%;
+}
