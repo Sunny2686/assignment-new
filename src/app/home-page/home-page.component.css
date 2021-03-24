@@ -104,6 +104,7 @@ mat-icon {
     background-image: url(../../assets/images/officeSmall.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 19vh;
     width: 20vw;
 }
@@ -129,20 +130,29 @@ mat-icon {
 }
 
 @media screen and (max-width: 599px) {
+    .section--one-content {
+        width: 80vw;
+    }
+    .section--two-content {
+        width: 80vw;
+    }
+    .section--two-content-left {
+        width: 80vw;
+    }
     .section--one-content-card {
-        width: 55vw;
+        width: 80vw;
     }
     .section--two-content-right-right {
-        width: 55vw;
+        width: 80vw;
     }
     .section--two-content-right-element-1,
     .section--two-content-right-element {
-        width: 55vw;
+        width: 80vw;
     }
     .section--two-content-right-left {
-        width: 55vw;
+        width: 80vw;
     }
     .section--two-center-image {
-        width: 55vw;
+        width: 80vw;
     }
 }
