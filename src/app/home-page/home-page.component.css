@@ -58,7 +58,8 @@ mat-icon {
 }
 
 .section--one-content-card {
-    width: 23rem;
+    width: 30vw;
+    overflow: auto;
 }
 
 .section--one-content-card-image {
@@ -75,14 +76,15 @@ mat-icon {
     width: 100%;
 }
 
-.section--two-content-left {
-    background-image: url(../../assets/images/office.jpg);
-    height: 75%;
-}
-
 .section--two-left {
     background-image: url(../../assets/images/office.jpg);
     height: 200px;
+}
+
+.section--two-content-left {
+    background-image: url(../../assets/images/office.jpg);
+    height: 75%;
+    width: 55vw;
 }
 
 .section--two-content-left-shade {
@@ -93,9 +95,8 @@ mat-icon {
 
 .section--two-content-right {
     height: 75%;
+    width: 45vw;
 }
-
-.section--two-content-right-left {}
 
 .section--two-content-right-right {
     height: 100%;
@@ -106,12 +107,8 @@ mat-icon {
     background-image: url(../../assets/images/officeSmall.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 13rem;
-    width: 13rem;
-}
-
-h3 {
-    margin: 0;
+    height: 19vh;
+    width: 20vw;
 }
 
 .section--two-content-right-right-content {
